@@ -2,8 +2,8 @@ package item
 
 // AWSBillingItem is used to represent any line in the billing file
 type AWSBillingItem struct {
-	IdentityLineItemID            string `csv:"identity/LineItemId"`
-	IdentityTimeInterval          string `csv:"identity/TimeInterval"`
+	IdentityLineItemID            string `dynamodbav:"IdentityLineItemID" csv:"identity/LineItemId"`
+	IdentityTimeInterval          string `dynamodbav:"IdentityTimeInterval" csv:"identity/TimeInterval"`
 	BillInvoiceID                 string `csv:"bill/InvoiceId"`
 	BillBillingEntity             string `csv:"bill/BillingEntity"`
 	BillBillType                  string `csv:"bill/BillType"`

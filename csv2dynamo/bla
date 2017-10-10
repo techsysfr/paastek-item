@@ -1,0 +1,248 @@
+2017/10/10 15:12:51 map[V:{
+  M: {
+    TotalReservedNormalizedUnits: {
+      NULL: true
+    },
+    Servicecode: {
+      NULL: true
+    },
+    Storage: {
+      NULL: true
+    },
+    LineItemBlendedCost: {
+      S: "0.010000"
+    },
+    PublicOnDemandCost: {
+      NULL: true
+    },
+    FromLocation: {
+      NULL: true
+    },
+    MaxIopsBurstPerformance: {
+      NULL: true
+    },
+    MaxVolumeSize: {
+      NULL: true
+    },
+    BillBillingPeriodStartDate: {
+      S: "2017-10-01T00:00:00Z"
+    },
+    LineItemProductCode: {
+      S: "AmazonEC2"
+    },
+    PreInstalledSw: {
+      NULL: true
+    },
+    Servicename: {
+      NULL: true
+    },
+    TransferType: {
+      NULL: true
+    },
+    ClockSpeed: {
+      NULL: true
+    },
+    Ecu: {
+      NULL: true
+    },
+    InstanceFamily: {
+      NULL: true
+    },
+    Sku: {
+      NULL: true
+    },
+    StorageClass: {
+      NULL: true
+    },
+    BillBillingPeriodEndDate: {
+      S: "2017-11-01T00:00:00Z"
+    },
+    LineItemNormalizedUsageAmount: {
+      NULL: true
+    },
+    InstanceType: {
+      NULL: true
+    },
+    Usagetype: {
+      NULL: true
+    },
+    BillBillType: {
+      S: "Anniversary"
+    },
+    LineItemUsageAmount: {
+      S: "1.0"
+    },
+    LineItemNormalizationFactor: {
+      NULL: true
+    },
+    LineItemCurrencyCode: {
+      S: "USD"
+    },
+    LineItemLineItemDescription: {
+      S: "Tax for product code AmazonEC2 usage type EBS:SnapshotUsage"
+    },
+    ProcessorArchitecture: {
+      NULL: true
+    },
+    StorageMedia: {
+      NULL: true
+    },
+    BillBillingEntity: {
+      S: "AWS"
+    },
+    LineItemUsageEndDate: {
+      S: "2017-11-01T00:00:00Z"
+    },
+    LineItemResourceID: {
+      NULL: true
+    },
+    Unit: {
+      NULL: true
+    },
+    LocationType: {
+      NULL: true
+    },
+    InstanceTypeFamily: {
+      NULL: true
+    },
+    LineItemUsageStartDate: {
+      S: "2017-10-01T00:00:00Z"
+    },
+    LineItemUsageType: {
+      S: "EBS:SnapshotUsage"
+    },
+    LineItemBlendedRate: {
+      NULL: true
+    },
+    UnitsPerReservation: {
+      NULL: true
+    },
+    PublicOnDemandRate: {
+      NULL: true
+    },
+    IdentityTimeInterval: {
+      S: "2017-10-01T00:00:00Z/2017-11-01T00:00:00Z"
+    },
+    BillInvoiceID: {
+      NULL: true
+    },
+    ProductName: {
+      S: "Amazon Elastic Compute Cloud"
+    },
+    Availability: {
+      NULL: true
+    },
+    LineItemAvailabilityZone: {
+      NULL: true
+    },
+    Term: {
+      NULL: true
+    },
+    GroupDescription: {
+      NULL: true
+    },
+    MaxThroughputvolume: {
+      NULL: true
+    },
+    Vcpu: {
+      NULL: true
+    },
+    Tenancy: {
+      NULL: true
+    },
+    ToLocationType: {
+      NULL: true
+    },
+    IdentityLineItemID: {
+      S: "tsyz242uocvutprobrcseneqbclx43xb25kudsdyconir34jewza"
+    },
+    LineItemUnblendedCost: {
+      S: "0.010000"
+    },
+    NormalizedUnitsPerReservation: {
+      NULL: true
+    },
+    FromLocationType: {
+      NULL: true
+    },
+    ProductFamily: {
+      NULL: true
+    },
+    Location: {
+      NULL: true
+    },
+    MaxIopsvolume: {
+      NULL: true
+    },
+    Memory: {
+      NULL: true
+    },
+    LineItemUsageAccountID: {
+      S: "641653057859"
+    },
+    LineItemTaxType: {
+      S: "VAT"
+    },
+    TotalReservedUnits: {
+      NULL: true
+    },
+    CurrentGeneration: {
+      NULL: true
+    },
+    Group: {
+      NULL: true
+    },
+    NetworkPerformance: {
+      NULL: true
+    },
+    OperatingSystem: {
+      NULL: true
+    },
+    PhysicalProcessor: {
+      NULL: true
+    },
+    ProcessorFeatures: {
+      NULL: true
+    },
+    Provisioned: {
+      NULL: true
+    },
+    LineItemLineItemType: {
+      S: "Tax"
+    },
+    ToLocation: {
+      NULL: true
+    },
+    Operation: {
+      NULL: true
+    },
+    Region: {
+      NULL: true
+    },
+    LineItemOperation: {
+      NULL: true
+    },
+    LineItemUnblendedRate: {
+      NULL: true
+    },
+    Durability: {
+      NULL: true
+    },
+    LicenseModel: {
+      NULL: true
+    },
+    NormalizationSizeFactor: {
+      NULL: true
+    },
+    BillPayerAccountID: {
+      S: "641653057859"
+    },
+    VolumeType: {
+      NULL: true
+    }
+  }
+} Err:{
+  NULL: true
+}]
+2017/10/10 15:12:52 ValidationException: One or more parameter values were invalid: Missing the key IdentityLineItemID in the item
+	status code: 400, request id: JDMOD86P3NBFFP8DLQ7SFQ303RVV4KQNSO5AEMVJF66Q9ASUAAJG
